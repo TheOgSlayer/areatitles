@@ -1,0 +1,17 @@
+name: AreaTitles
+version: ${project.version}
+main: com.example.areatitle.AreaTitlesPlugin
+api-version: "1.21"
+description: Shows a customisable title when a player enters a region
+
+commands:
+  areatitle:
+    description: Manage title regions
+    aliases: [atitle]
+    usage: /areatitle <pos1|pos2|create|delete|list|settitle|setsubtitle|settimes|info|preview>
+    permission: areatitle.admin
+
+permissions:
+  areatitle.admin:
+    description: Create and edit title regions
+    default: op

@@ -1,0 +1,6 @@
+# Default timings (in seconds) for newly created regions.
+# Change per region with /areatitle settimes <name> <fadeIn> <stay> <fadeOut>
+default-times:
+  fade-in: 0.5
+  stay: 3.0
+  fade-out: 1.0
